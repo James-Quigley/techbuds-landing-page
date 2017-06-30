@@ -3,53 +3,138 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Techbud Solutions</title>
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+
+    <!-- CSS  -->
+    {#<link href="min/plugin-min.css" type="text/css" rel="stylesheet">#}
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 </head>
 
-<body class="cyan" style="display:flex;justify-content:center;align-items:center;">
-
-    {#
-    <div class="card blue lighten-1 col s10 m8 l6">
-        <div class="card-content white-text">
-            <span class="card-title">Sign Up</span>
-            <p>We'll notify you when the site goes live</p>
-            <input type="email" name="email" id="email">
+<body>
+    <!--Hero-->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters" style="padding: 0;text-decoration: underline;">Techbud Solutions</h1>
+            <h1 class="text_h center header cd-headline letters type">
+                <span class="cd-words-wrapper waiting" style="min-height: 10px;">
+                <b class="is-visible">Learn to trade</b>
+                <b>Expand your network</b>
+                <b>Maximize profits</b>
+                <b>Minimize risks</b>
+                <b>Get motivated</b>
+            </span>
+            </h1>
         </div>
-    </div>#}
-    <h1>Techbud Solutions</h1>
-    <h2>Investing, Insight, and Innovation</h2>
-    <div class="col s10 m8 l6 z-depth-4 card-panel">
-        <form class="login-form">
-            <div class="row">
-                <div class="input-field col s12 center">
-                    <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
-                    <p class="center login-form-text">Material Design Admin Template</p>
-                </div>
-            </div>
-            <div class="row margin">
-                <div class="input-field col s12">
-                    <i class="email"></i>
-                    <input id="email" type="text">
-                    <label for="email" class="center-align">Email</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <a href="index.html" class="btn waves-effect waves-light col s12">Sign Up</a>
-                </div>
-            </div>
-        </form>
     </div>
+
+<!--Work-->
+    <div class="section scrollspy" id="signup">
+        <div class="container">
+            <h2 class="header text_b">Sign Up </h2>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 center">We'll let you know when the site goes live</span>
+                            <div class="row">
+                                <form action="javascript:submitEmail();">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">email</i>
+                                        <label for="email">Email:</label>
+                                        <input type="email" name="email" id="email" validate>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Intro and service-->
+    <div id="intro" class="section scrollspy grey lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="center header text_h2">Join our community of <span class="span_h2">motivated</span> traders, investors, and entrepreneurs.
+                     Learn how to find <span class="span_h2">opportunities</span> to grow your portfolio. 
+                     Better your business mindset and <span class="span_h2">network</span> with others who want to help you <span class="span_h2">succeed</span>.</h2>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">chat</i>
+                        <h5 class="promo-caption">Group Chat</h5>
+                        <p class="light center">Discuss your trades in real time with others. Chat rooms for all different types of trades. Get instant feedback on your performance.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">trending_up</i>
+                        <h5 class="promo-caption">Technical Analysis</h5>
+                        <p class="light center">Learn how to identify patterns, supports, and resistances. Know exactly when to buy/sell to maximize your profit and minimize your risk.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">contact_phone</i>
+                        <h5 class="promo-caption">Network</h5>
+                        <p class="light center">Grow your network of traders and entrepreneurs and help each other succeed. Get support for your ideas, and bring your goals to life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="contact" class="page-footer default_color scrollspy">
+        <div class="footer-copyright default_color">
+            <div class="container">
+                Made by the Techbuds Development Team</a>. Thanks to <a class="white-text"
+                    href="http://materializecss.com/">materializecss</a>
+            </div>
+        </div>
+    </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="js/bin/materialize.min.js"></script>
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+    <script>
+        {#$("#email").on('keyup', function (e) {
+            if (e.keyCode == 13) {
+                var addr = $("#email").val();
+                $("#email").val("");
+                $.post("/", {email: addr}).done(function(data){
+                    console.log(data.responseText);
+                    Materialize.toast(data.responseText,3000);
+                }).fail(function(data){
+                    console.log(data.responseText);
+                    Materialize.toast(data.responseText, 3000);
+                });
+            }
+        });#}
+
+        function submitEmail(){
+            $("#email").blur();
+            var addr = $("#email").val();
+            $("#email").val("");
+            $.post("/", {email: addr}).done(function(data){
+                Materialize.toast(data,3000);
+            }).fail(function(data){
+                Materialize.toast(data.responseText, 3000);
+            });
+        }
+    </script>
 </body>
 
 </html>

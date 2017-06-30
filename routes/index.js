@@ -12,16 +12,16 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
   if (validateEmail(req.body.email)){
-    Email.find({email: req.body.email}, function (err, savedEmail){
+    Email.findOne({email: req.body.email}, function (err, savedEmail){
       if (err){
         res.status(500);
-        res.send("Uh oh");
+        res.send("Something went wrong");
       } else {
         if (!savedEmail){
           var email = new Email({email: req.body.email});
           email.save();
           res.status(200);
-          res.send("Success");
+          res.send("Success!");
         } else {
           res.status(400);
           res.send("Already exists");
