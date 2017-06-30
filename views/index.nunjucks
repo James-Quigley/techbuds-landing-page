@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Techbud Solutions</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+</head>
+
+<body class="cyan" style="display:flex;justify-content:center;align-items:center;">
+
+    {#
+    <div class="card blue lighten-1 col s10 m8 l6">
+        <div class="card-content white-text">
+            <span class="card-title">Sign Up</span>
+            <p>We'll notify you when the site goes live</p>
+            <input type="email" name="email" id="email">
+        </div>
+    </div>#}
+    <h1>Techbud Solutions</h1>
+    <h2>Investing, Insight, and Innovation</h2>
+    <div class="col s10 m8 l6 z-depth-4 card-panel">
+        <form class="login-form">
+            <div class="row">
+                <div class="input-field col s12 center">
+                    <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+                    <p class="center login-form-text">Material Design Admin Template</p>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="email"></i>
+                    <input id="email" type="text">
+                    <label for="email" class="center-align">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <a href="index.html" class="btn waves-effect waves-light col s12">Sign Up</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/bin/materialize.min.js"></script>
+</body>
+
+</html>
