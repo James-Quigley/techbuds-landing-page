@@ -23,10 +23,10 @@
             <h1 class="text_h center header cd-headline letters" style="padding: 0;text-decoration: underline;">Techbud Solutions</h1>
             <h1 class="text_h center header cd-headline letters type">
                 <span class="cd-words-wrapper waiting" style="min-height: 10px;">
-                <b class="is-visible">Learn to trade</b>
-                <b>Expand your network</b>
+                <b class="is-visible">Network, Trade, Profit</b>
+                <b>Learn to trade</b>
+                <b>Share ideas</b>
                 <b>Maximize profits</b>
-                <b>Minimize risks</b>
                 <b>Get motivated</b>
             </span>
             </h1>
@@ -63,30 +63,29 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h2 class="center header text_h2">Join our community of <span class="span_h2">motivated</span> traders, investors, and entrepreneurs.
-                     Learn how to find <span class="span_h2">opportunities</span> to grow your portfolio. 
-                     Better your business mindset and <span class="span_h2">network</span> with others who want to help you <span class="span_h2">succeed</span>.</h2>
+                     <h2 class="center header text_h2">Join our community of over <span class="span_h2">34,000</span> motivated traders, investors, and entrepreneurs. Learn how to identify <span class="span_h2">potential</span>
+                     to grow your portfolio. Better your business mindset and network with others who want to help you <span class="span_h2">succeed</span>.</h2>
                 </div>
 
                 <div class="col s12 m4 l4">
                     <div class="center promo promo-example">
                         <i class="material-icons">chat</i>
                         <h5 class="promo-caption">Group Chat</h5>
-                        <p class="light center">Discuss your trades in real time with others. Chat rooms for all different types of trades. Get instant feedback on your performance.</p>
+                        <p class="light center">Discuss your trades in real time with thousands. Chat rooms for all types of markets. Get instant feedback on your performance.</p>
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
                     <div class="center promo promo-example">
                         <i class="material-icons">trending_up</i>
                         <h5 class="promo-caption">Technical Analysis</h5>
-                        <p class="light center">Learn how to identify patterns, supports, and resistances. Know exactly when to buy/sell to maximize your profit and minimize your risk.</p>
+                        <p class="light center">Learn how to manage your risk and find the best stocks & patterns.</p>
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
                     <div class="center promo promo-example">
-                        <i class="material-icons">contact_phone</i>
+                        <i class="material-icons>leak_add</i>
                         <h5 class="promo-caption">Network</h5>
-                        <p class="light center">Grow your network of traders and entrepreneurs and help each other succeed. Get support for your ideas, and bring your goals to life.</p>
+                        <p class="light center">Silicon Valley meets Wall Street. Follow and brainstorm with profitable traders from all around the world before making your next investment.</p>
                     </div>
                 </div>
             </div>
