@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Email = require('../models/email');
 
-mongoose.connect('mongodb://localhost:27017/techbud-emails');
+mongoose.connect('mongodb://test:techbuds@chuckdries.rocks:27017/techbud-emails?authSource=admin');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

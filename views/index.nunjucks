@@ -20,7 +20,11 @@
     <!--Hero-->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
-            <h1 class="text_h center header cd-headline letters" style="padding: 0;text-decoration: underline;">Techbud Solutions</h1>
+            <!--<h1 class="text_h center header cd-headline letters" style="padding: 0;text-decoration: underline;">Techbud Solutions</h1>-->
+            <div class="center white" style="border-radius: 50px">
+                <img src="images/logo.svg" class="center" />
+            </div>
+            
             <h1 class="text_h center header cd-headline letters type">
                 <span class="cd-words-wrapper waiting" style="min-height: 10px;">
                 <b class="is-visible">Network, Trade, Profit</b>
@@ -83,7 +87,7 @@
                 </div>
                 <div class="col s12 m4 l4">
                     <div class="center promo promo-example">
-                        <i class="material-icons>leak_add</i>
+                        <i class="material-icons">leak_add</i>
                         <h5 class="promo-caption">Network</h5>
                         <p class="light center">Silicon Valley meets Wall Street. Follow and brainstorm with profitable traders from all around the world before making your next investment.</p>
                     </div>
