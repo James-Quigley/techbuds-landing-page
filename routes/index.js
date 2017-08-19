@@ -3,7 +3,13 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Email = require('../models/email');
 
-mongoose.connect('mongodb://test:techbuds@chuckdries.rocks:27017/techbud-emails?authSource=admin');
+const username = process.env.DB_USER;
+const password = process.env.DB_PASS;
+const host = process.env.DB_HOST;
+const port = process.env.DB_PORT;
+const database = process.env.DB_DATABASE;
+
+mongoose.connect('mongodb://'+username+':'+password+'@'+host+':'+port+'/'+database+'?authSource=admin');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
