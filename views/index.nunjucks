@@ -14,6 +14,19 @@
     <!-- CSS  -->
     {#<link href="min/plugin-min.css" type="text/css" rel="stylesheet">#}
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+
+    <style>
+    @media (min-width: 450px) and (max-width: 530px) {
+        img {
+            width: 250px
+        }
+    }
+    @media (max-width: 450px) {
+        img {
+            width: 150px
+        }
+    }
+    </style>
 </head>
 
 <body>
