@@ -39,7 +39,7 @@
         }
 
         #index-banner {
-            min-height: 400px
+            min-height: 350px
         }
     }
     @media (max-width: 450px) {
@@ -55,7 +55,7 @@
         }
 
         #index-banner {
-            min-height: 300px
+            min-height: 250px
         }
     }
     </style>
