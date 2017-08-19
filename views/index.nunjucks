@@ -16,14 +16,27 @@
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 
     <style>
+    @media (max-width: 800px) {
+        h2 {
+            font-size: 2.5em
+        }
+    }
     @media (min-width: 450px) and (max-width: 530px) {
         img {
             width: 250px
+        }
+
+        h2 {
+            font-size: 2em
         }
     }
     @media (max-width: 450px) {
         img {
             width: 150px
+        }
+
+        h2 {
+            font-size: 1.5em
         }
     }
     </style>
@@ -84,21 +97,21 @@
                      to grow your portfolio. Better your business mindset and network with others who want to help you <span class="span_h2">succeed</span>.</h2>
                 </div>
 
-                <div class="col s12 m4 l4">
+                <div class="col s4 m4 l4">
                     <div class="center promo promo-example">
                         <i class="material-icons">chat</i>
                         <h5 class="promo-caption">Group Chat</h5>
                         <p class="light center">Discuss your trades in real time with thousands. Chat rooms for all types of markets. Get instant feedback on your performance.</p>
                     </div>
                 </div>
-                <div class="col s12 m4 l4">
+                <div class="col s4 m4 l4">
                     <div class="center promo promo-example">
                         <i class="material-icons">trending_up</i>
                         <h5 class="promo-caption">Technical Analysis</h5>
                         <p class="light center">Learn how to manage your risk and find the best stocks & patterns.</p>
                     </div>
                 </div>
-                <div class="col s12 m4 l4">
+                <div class="col s4 m4 l4">
                     <div class="center promo promo-example">
                         <i class="material-icons">leak_add</i>
                         <h5 class="promo-caption">Network</h5>
