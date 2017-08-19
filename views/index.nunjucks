@@ -17,11 +17,19 @@
 
     <style>
     @media (max-width: 800px) {
+        .text_h {
+            font-size: 4.5em
+        }
+
         h2 {
             font-size: 2.5em
         }
     }
     @media (min-width: 450px) and (max-width: 530px) {
+        .text_h {
+            font-size: 3.5em
+        }
+
         img {
             width: 250px
         }
@@ -29,14 +37,25 @@
         h2 {
             font-size: 2em
         }
+
+        #index-banner {
+            min-height: 400px
+        }
     }
     @media (max-width: 450px) {
+        .text_h {
+            font-size: 3em
+        }
         img {
             width: 150px
         }
 
         h2 {
             font-size: 1.5em
+        }
+
+        #index-banner {
+            min-height: 300px
         }
     }
     </style>
