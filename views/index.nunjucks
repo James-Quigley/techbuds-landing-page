@@ -15,6 +15,15 @@
     {#<link href="min/plugin-min.css" type="text/css" rel="stylesheet">#}
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
     <style>
     @media (max-width: 800px) {
         .text_h {
@@ -112,7 +121,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                     <h2 class="center header text_h2">Join our community of over <span class="span_h2">34,000</span> motivated traders, investors, and entrepreneurs. Learn how to identify <span class="span_h2">potential</span>
+                     <h2 class="center header text_h2">Join our community of over <span class="span_h2">35,000</span> motivated traders, investors, and entrepreneurs. Learn how to identify <span class="span_h2">potential</span>
                      to grow your portfolio. Better your business mindset and network with others who want to help you <span class="span_h2">succeed</span>.</h2>
                 </div>
 
@@ -120,7 +129,7 @@
                     <div class="center promo promo-example">
                         <i class="material-icons">chat</i>
                         <h5 class="promo-caption">Group Chat</h5>
-                        <p class="light center">Discuss your trades in real time with thousands. Chat rooms for all types of markets. Get instant feedback on your performance.</p>
+                        <p class="light center">Discuss your trades in real time with thousands. Chat rooms for all markets. Get real time feedback on your performance.</p>
                     </div>
                 </div>
                 <div class="col s4 m4 l4">
